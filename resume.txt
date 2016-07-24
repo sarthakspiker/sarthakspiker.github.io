@@ -1,8 +1,18 @@
-SARTHAK KUMAR 
+﻿SARTHAK KUMAR 
 
-S.R.M University, kattankulathur, chennai, 603203
-EMAIL: spikerstriker@gmail.com  Phone : 9962029154
-website: Under Maintainance 
+Age : 19
+Nationality : Indian
+Languages : English, Hindi
+
+Father’s Name : Chandrashekhar Prasad
+Mother’s Name : Puspa Devi
+
+
+Address : J-303, Akshaya Metropolish,
+Maraimalai nagar, chennai, 603209
+
+EMAIL: spikerstriker@gmail.com  Phone : +91-9962029154
+website: sarthakspiker.github.io 
 
 
 EDUCATION :
