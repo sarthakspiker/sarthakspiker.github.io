@@ -62,16 +62,11 @@
 .nav a:link{
 	text-decoration: none;
 }
-.nav a:visited{
-	text-decoration: none;
-}
 .nav a:hover{
 	text-decoration: none;
 	background: gray;
 	font-weight: bold;
 }
-.nav a:active{
-	text-decoration: none;
 }
 #form1 {
 	padding: 20px;
