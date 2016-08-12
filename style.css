@@ -1,5 +1,5 @@
 .home1 {
-	font-family:;
+	font-family:serif;
 	height:380px;
 	font-size:40px;
 	background: #767676;
@@ -8,21 +8,22 @@
 	text-align:center;
 }
 .home2 {
-	font-family:caladea;
+	font-family:serif;
     font-size:30px;
 	color: black;
 	padding:15px 15px 10px 40px;
 	text-align:center;
 }
 .head1 {
-	font-family:demonized;
+	font-family:serif;
+	font-style:italic;
 	font-size:50px;
 	height:auto;
 	text-align:center;
 	padding:20px;
 }
 .footer {
-	font-family:arial;
+	font-family:serif;
 	text-align:center;
 	color:black;
 	
