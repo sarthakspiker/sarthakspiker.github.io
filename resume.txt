@@ -32,9 +32,11 @@ EXPERIENCE WITH :
 C++
 C
 HTML
+CSS
 Version Control (git)
 Linux
 Photoshop
+Adobe Illustrator
 Android
 
 
