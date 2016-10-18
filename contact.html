@@ -12,9 +12,21 @@
 <link rel="shortcut icon" href="img/favicon.ico" />
 <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
-<body bgcolor="#52585C" >
-<a href="index.html"> <h1 style="padding:7px;font-size:45px;"> 
-<img src="img/SK.png" height="40px" style="padding:20px;border:0"> </h1></a>
+<body >
+<div class="bar">
+<ul class="bar">
+  <li class="bar"><a href=""><img src="img/SK.png" height="22px" ></a></li>
+  <li class="bar" style="padding-left:20px;"><a href="home.html"><img src="img/hm.png" height="22px" ></a></li>
+    <li class="bar"><a href="about.html">About</a></li>
+  <li class="bar"><a href="resume.html">Resume</a></li>
+  <li class="bar"><a class="active" href="contact.html">Contact</a></li>
+  <li class="bar" style="float:right"><a href="https://www.facebook.com/sarthakspiker" target="_blank"><img src="img/fb.png" height="22px" ></a></li>
+  <li class="bar" style="float:right"><a href="https://google.com/+sarthakkumar97" target="_blank"><img src="img/gp.png" height="22px" ></a></li> 
+  <li class="bar" style="float:right"><a href="https://github.com/sarthakspiker" target="_blank"><img src="img/gh.png" height="22px" ></a></li>
+    <li class="bar" style="float:right"><a href="http://forum.xda-developers.com/member.php?u=6335045" target="_blank"><img src="img/xda.png" height="22px" ></a></li>
+
+</ul>
+</div>
  <h1 class="head1"> Here are some channels to contact me</h1>
  
 	<ul class="resulist" style="padding-bottom:100px;padding-top:100px;">
@@ -22,21 +34,46 @@
 	<li><b> Address : </b> J-303,<br /> Akshaya Metropolish,<br /> Maraimalai Nagar, Chennai,<br /> 603209</li><br />
 	<li><b> Email :</b> spikerstriker@gmail.com </li>
 	</ul>
+
 	   <h2 style="padding-left:50px;"> Drop a Line or Hire Me </h2>
-                <form id="form1">
-                   <input type="text" class="form-control" required="required" placeholder="Name"><br />
-                   <input type="text" class="form-control" required="required" placeholder="Email address"><br />
-                   <input type="text" class="form-control" required="required" placeholder="Subject"><br />
-                   <input type="text" class="form-control"  placeholder="Ref. (IF any)"><br />
-                   <textarea name="message" id="message" required="required" class="form-control" rows="3"  placeholder="Message"></textarea><br />
-                   <button type="submit" class="btn btn-primary">Submit Request</button>
- 
+	   
+<form id="form1" method="POST" name="contactform" action="contact-form-handler.php"> 
+<p>
+<label for='name'>Your Name:</label><br>
+<input type="text" name="name">
+</p>
+<p>
+<label for='email'>Email Address:</label><br>
+<input type="text" name="email">
+</p>
+<p>
+<label for='message'>Message:</label><br>
+<textarea name="message"></textarea>
+</p>
+<input type="submit" style="padding:10px;font-weight:bold;margin-left:400px" value="Submit"><br>
+</form>
+
+<script language="JavaScript">
+// Code for validating the form
+// Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
+// for details
+var frmvalidator  = new Validator("contactform");
+frmvalidator.addValidation("name","req","Please provide your name"); 
+frmvalidator.addValidation("email","req","Please provide your email"); 
+frmvalidator.addValidation("email","email","Please enter a valid email address"); 
+</script>
+<!--
+Sample code from:
+http://www.html-form-guide.com/contact-form/php-email-contact-form.html
+-->
+
+	   
 <p class="nav" >
-<a href="index.html">Home</a>
+<a href="home.html">Home</a>
 ::<a href="contact.html">Contact</a>
 :: <a href="about.html">About</a>
 :: <a href="resume.html">Resume</a>
-:: <a href="https://www.facebook.com/shubham.spiker" target="_blank">Facebook</a>
+:: <a href="https://www.facebook.com/sarthakspiker" target="_blank">Facebook</a>
 :: <a href="https://google.com/+sarthakkumar97" target="_blank">Google+</a>
 :: <a href="https://github.com/sarthakspiker" target="_blank">Github</a>
 :: <a href="http://forum.xda-developers.com/member.php?u=6335045" target="_blank">XDA-Devs</a>
