@@ -1,0 +1,43 @@
+﻿SARTHAK KUMAR 
+
+Age : 19
+Nationality : Indian
+Languages : English, Hindi
+
+Father’s Name : Chandrashekhar Prasad
+Mother’s Name : Puspa Devi
+
+
+Address : J-303, Akshaya Metropolish,
+Maraimalai nagar, chennai, 603209
+
+EMAIL: spikerstriker@gmail.com  Phone : +91-9962029154
+website: sarthakspiker.github.io 
+
+
+EDUCATION :
+
+B.tech, Software Engineering
+SRM University,Kattankulathur, Chennai,603203
+
+12th std.
+D.A.V Kapildev Public School, Kadru,Ranchi,834001
+
+10th std.
+Jeevan Deep Public School, Nawada,Bihar,805110
+
+
+EXPERIENCE WITH :
+
+C++
+C
+HTML
+CSS
+Version Control (git)
+Linux
+Photoshop
+Adobe Illustrator
+Android
+
+
+

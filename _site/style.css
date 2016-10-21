@@ -1,0 +1,148 @@
+body {
+	margin:0;
+	padding:0;
+  background-image: url(img/bg1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: ;
+  background-size: cover;
+  background-color:;
+}
+/* -- Navigation Menu -- */
+
+.bar ul {
+	position:fixed;
+	    width: 100%;
+		top:0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden ;
+    background-color: #333;
+}
+
+.bar li {
+    float: left;
+}
+
+.bar li a {
+    display: block;
+    color: white;
+    text-align: center;
+	height:22px;
+	padding: 12px;
+    text-decoration: none;
+}
+
+.bar li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color:black ;
+}
+.home1 {
+	font-family:serif;
+	height:380px;
+	font-size:40px;
+	background: ;
+	color: #111;
+	padding:15px;
+	text-align:center;
+}
+.home2 {
+	font-family:serif;
+    font-size:30px;
+	color: black;
+	padding:15px 15px 10px 40px;
+	text-align:center;
+}
+.head1 {
+	font-family:serif;
+	font-style:italic;
+	font-size:50px;
+	height:auto;
+	color:white;
+	text-align:center;
+	padding:20px;
+}
+.footer {
+	font-family:serif;
+	text-align:center;
+	color:black;
+	
+}
+#download{
+	background:#338FD2;
+	color:white;
+	text-decoration: none;
+	padding:10px;
+	text-align:center;
+	font-size:18px;
+	border:2px solid #409EEA;
+	border-radius: 10px;
+}
+#download:hover{
+	text-decoration: none;
+	background: red;
+	font-weight: bold;
+}	
+.resulist{
+		padding:25px;
+		padding-left:100px;
+		font-size:22px;
+}
+.nav {
+	border:1px solid black;
+	color:black;
+	font-size:18px;
+	background:#111;
+	padding:10px;
+	text-align:center;
+}
+.nav a{
+	padding:7px;
+	text-decoration: none;
+}
+.nav a:link{
+	text-decoration: none;
+}
+.nav a:hover{
+	text-decoration: none;
+	background: black;
+	font-weight: bold;
+}
+}
+#form1 {
+	padding: 20px;
+	background: #767676;
+	height:275px;
+}
+#form1 input{
+	padding:10px;
+	padding-right:500px;
+	border-radius:5px;
+	margin-left:80px;
+	margin-bottom:10px;
+}
+#form1 textarea{
+	padding:20px;
+	padding-right:505px;
+	border-radius:5px;
+	margin-left:80px;
+	margin-bottom:10px;
+}
+#form1 button{
+	padding:12px;
+	font-size:20px;
+	border-radius:5px;
+	margin-left:350px;
+	margin-bottom:10px;
+	margin-top:10px;
+	background:#338FD2;
+	border: 0px solid black;
+}
+#form1 button:hover{
+background:red;
+font-weight:bold;
+}
