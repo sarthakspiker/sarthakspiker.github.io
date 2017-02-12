@@ -11,60 +11,120 @@
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <link rel="shortcut icon" href="img/favicon.ico" />
 <link rel="stylesheet" type="text/css" href="style.css" />
+<link href="https://fonts.googleapis.com/css?family=Raleway|Roboto|Roboto+Condensed" rel="stylesheet">
 </head>
 <body >
 <div class="bar">
 <ul class="bar">
-  <li class="bar"><a href=""><img src="img/SK.png" height="22px" ></a></li>
-  <li class="bar" style="padding-left:20px;"><a href="home.html"><img src="img/hm.png" height="22px" ></a></li>
-    <li class="bar"><a class="active" href="about.html">About</a></li>
-  <li class="bar"><a href="resume.html">Resume</a></li>
-  <li class="bar"><a href="contact.html">Contact</a></li>
-  <li class="bar" style="float:right"><a href="https://www.facebook.com/sarthakspiker" target="_blank"><img src="img/fb.png" height="22px" ></a></li>
-  <li class="bar" style="float:right"><a href="https://google.com/+sarthakkumar97" target="_blank"><img src="img/gp.png" height="22px" ></a></li> 
-  <li class="bar" style="float:right"><a href="https://github.com/sarthakspiker" target="_blank"><img src="img/gh.png" height="22px" ></a></li>
-    <li class="bar" style="float:right"><a href="http://forum.xda-developers.com/member.php?u=6335045" target="_blank"><img src="img/xda.png" height="22px" ></a></li>
+    <style>
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #122640;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="home.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="resume.html">Resume</a>
+  <a href="contact.html">Contact</a>
+</div>
+<li style="font-size:30px;cursor:pointer;color:white;" onclick="openNav()">&nbsp;&#9776</li>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+  <li class="bar" style="float:right"><a href="https://www.facebook.com/sarthakspiker" target="_blank"><img src="img/fb.png" height="28px" style="border-radius:13px"></a></li>
+  <li class="bar" style="float:right"><a href="https://google.com/+sarthakkumar97" target="_blank"><img src="img/gp.png" height="26px" ></a></li> 
+  <li class="bar" style="float:right"><a href="https://github.com/sarthakspiker" target="_blank"><img src="img/gh.png" height="26px" ></a></li>
+    <li class="bar" style="float:right"><a href="http://forum.xda-developers.com/member.php?u=6335045" target="_blank"><img src="img/xda.png" height="26px" ></a></li>
 
 </ul>
 </div>
 <h1 class="head1"> Know more about me and my Projects</h1>
 
- <h2 style="padding:20px;padding-top:70px;font-size:30px;text-align:center;"> Fun facts about me</h2>
+ <h2 class="head2"> Fun facts about me</h2>
 
- <p style="font-size:22px;padding:30px;padding-left:50px;">
+ <p class="home2">
 I like travelling, I've fell quite a few times though not once broke a bone. I like non-veg food specially chicken.
 I love music a lot. At age of 15, I came to know what I had to do in my life and I had finally found
  my passion. I play lot of mobile games and mess with softwares. I read many things on the Internet, and also follow various forums.
  </p>
 
-  <h2 style="padding:20px;padding-top:30px;font-size:30px;text-align:center;"> The Origin</h2>
- <p style="font-size:22px;padding:30px;padding-left:50px;">
+  <h2 class="head2"> The Origin</h2>
+ <p class="home2">
 I grew up in a very small town (Hisua) of India. Its a remote area close to Rajgir region, in Bihar. Due
 to lack of resources i was not able to learn many things that i wanted to, in the initial years. Later
 on, with the arrival of INTERET OF THINGS, I got a chance to learn a few things and soon I knew my passion.
 Then I started digging articles on various websites and learned development. In 2012 I joined XDA (sarthakspiker) and since
 then I've not stopped. I learned things about Android from the Internet and I'm also maintaining some projects.
 </p>
-  <h2 style="padding:20px;padding-top:30px;font-size:30px;text-align:center;"> PROJECTS</h2>
-
- <p style="font-size:22px;padding:30px;padding-left:60px;text-align:center;">
-   <b>OrionOS (Custom Android Firmware)</b><br />
- <img src="orion/orion.png" height="200px" style="padding:20px;"> <br />
+  <h2 class="head2"> PROJECTS</h2>
+<p class="home2" style="text-align:center;background:#172E4E;padding-bottom:10px">
+    <b>OrionOS (Custom Android Firmware)</b><br />
+         <img src="orion/orion.png" height="200px" style="padding:20px;"> </p>
+ <p class="home2">
  OrionOS is a custom firmware developmment project based on Android Open Source Project (AOSP).
- <a href="https://www.linkedin.com/in/sohamjambhekar" style="text-decoration:none;" target="_blank">Soham Jambhekar</a> started this project to build a stable ROM for Motorola Moto G(2013) bundled with essential features
+ <a href="https://www.linkedin.com/in/sohamjambhekar" style="text-decoration:none;color:gray;" target="_blank">Soham Jambhekar</a> started this project to build a stable ROM for Motorola Moto G(2013) bundled with essential features
  and sleek performance. It is currently available for many devices, maintained by a team. I myself am a part
- of the team and currently maintain OnePlus X (onyx). Check it out on <a href="https://github.com/TeamOrion" style="text-decoration:none;" target="_blank">github</a> or <a href="https://plus.google.com/communities/111860173543944260545" style="text-decoration:none;" target="_blank">Google+</a>.
+ of the team and currently maintain OnePlus X (onyx). Check it out on <a href="https://github.com/TeamOrion" style="text-decoration:none;color:gray;" target="_blank">github</a> or <a href="https://plus.google.com/communities/111860173543944260545" style="text-decoration:none;color:gray;" target="_blank">Google+</a>.
  Also check out our themes on Google Play Store. <br />
- 
- </P>
-<p style="text-align:center;">
+ </p>
+<p style="text-align:center;margin-top:50px">
 	<img src="orion/Settings.png" height="360px" style="padding:10px;">
 	<img src="orion/Universe.png" height="360px" style="padding:10px;">
 	<img src="orion/About.png" height="360px" style="padding:10px;">
 	<img src="orion/QS.png" height="360px" style="padding:10px;">
 </p>
- <p style="font-size:22px;padding:30px;padding-left:60px;text-align:center;">
-<b>This wesite (HTML and CSS based)</b><br /><br />
+<h2 class="head2">This website (HTML and CSS based)</h2>
+ <p class="home2" style="margin-bottom:50px;">
 I started this website as my learning project when I started with web development, Slowly customizing it to evolve up to a professional level. Its my profile website and some details about me can be found here. Github tools are being used to manage and update it.
 </p>
 

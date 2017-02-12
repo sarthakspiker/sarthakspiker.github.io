@@ -1,8 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Montserrat:200|Kanit:200');
 body {
-	background-image: url(img/bg1.jpg);
+	background-image:url(img/design.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
+    background-color: #172E4E;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -13,13 +16,14 @@ body {
 
 .bar ul {
 	position:fixed;
-	    width: 100%;
-		top:0;
+    width: 100%;
+    top:0;
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 5px;
     overflow:hidden ;
-    background-color: #333;
+    background-color: #122640;
+    visibility: ;
 }
 
 .bar li {
@@ -31,67 +35,88 @@ body {
     color: white;
     text-align: center;
 	height:22px;
+    width: auto;
 	padding: 12px;
+    padding-left: 12px;
     text-decoration: none;
+    border: solid 1px #122640;
 }
 
-.bar li a:hover:not(.active) {
-    background-color: #111;
+.bar li a:hover{
+    transition-duration: 1s;
+    border: solid 1px #0090FF;
 }
 
 .active {
-    background-color:black ;
+    background-color: #0090FF ;
 }
 .home1 {
-	font-family:serif;
+	font-family:Montserrat;
 	height:380px;
 	font-size:40px;
 	background: ;
-	color: #111;
+	color: white;
 	padding:15px;
 	text-align:center;
+
 }
 .home2 {
-	font-family:serif;
-    font-size:30px;
-	color: black;
-	padding:15px 15px 10px 40px;
+    background-image: url(img/square1.png);
+    background-size: cover;
+	font-family: kanit;
+    font-size:26px;
+	color: white;
+	padding:40px;
+    padding-right:55px;
+    margin: 0 50px 0 60px;
 	text-align:center;
 }
 .head1 {
-	font-family:serif;
+	font-family: Josefin Sans;
 	font-style:italic;
 	font-size:50px;
 	height:auto;
 	color:white;
 	text-align:center;
+	padding:30px;
+}
+.head2 {
+	font-family: Montserrat;
+	font-size:30px;
+	color:white;
+	text-align:center;
 	padding:20px;
+    padding-top: 50px;
 }
 .footer {
-	font-family:serif;
+	font-family:monospace;
 	text-align:center;
 	color:black;
 	
 }
 #download{
-	background:#338FD2;
+	background:#0084FF;
 	color:white;
 	text-decoration: none;
 	padding:10px;
 	text-align:center;
 	font-size:18px;
-	border:2px solid #409EEA;
 	border-radius: 10px;
 }
 #download:hover{
+    transition-duration: 1s;
 	text-decoration: none;
-	background: red;
-	font-weight: bold;
+	background: #31D594;
 }	
 .resulist{
-		padding:25px;
-		padding-left:100px;
-		font-size:22px;
+    background-image: url(img/square2.png);
+    background-size: cover;
+    font-family: kanit;
+	padding:40px;
+    margin: 40px;
+	padding-left:120px;
+    font-size:22px;
+    color: white;
 }
 .nav {
 	border:1px solid black;
@@ -100,8 +125,10 @@ body {
 	background:#111;
 	padding:10px;
 	text-align:center;
+	text-decoration: none;
 }
 .nav a{
+    color:white;
 	padding:7px;
 	text-decoration: none;
 }
@@ -111,39 +138,6 @@ body {
 .nav a:hover{
 	text-decoration: none;
 	background: black;
-	font-weight: bold;
+    color: #0084FF;
 }
-}
-#form1 {
-	padding: 20px;
-	background: #767676;
-	height:275px;
-}
-#form1 input{
-	padding:10px;
-	padding-right:500px;
-	border-radius:5px;
-	margin-left:80px;
-	margin-bottom:10px;
-}
-#form1 textarea{
-	padding:20px;
-	padding-right:505px;
-	border-radius:5px;
-	margin-left:80px;
-	margin-bottom:10px;
-}
-#form1 button{
-	padding:12px;
-	font-size:20px;
-	border-radius:5px;
-	margin-left:350px;
-	margin-bottom:10px;
-	margin-top:10px;
-	background:#338FD2;
-	border: 0px solid black;
-}
-#form1 button:hover{
-background:red;
-font-weight:bold;
 }

@@ -11,26 +11,87 @@
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <link rel="shortcut icon" href="img/favicon.ico" />
 <link rel="stylesheet" type="text/css" href="style.css" />
+<link href="https://fonts.googleapis.com/css?family=Raleway|Roboto|Roboto+Condensed" rel="stylesheet">
 </head>
 <body >
 
 <div class="bar">
 <ul class="bar">
-  <li class="bar"><a href=""><img src="img/SK.png" height="22px" ></a></li>
-  <li class="bar" style="padding-left:20px;"><a href="home.html"><img src="img/hm.png" height="22px" ></a></li>
-    <li class="bar"><a href="about.html">About</a></li>
-  <li class="bar"><a class="active" href="resume.html">Resume</a></li>
-  <li class="bar"><a href="contact.html">Contact</a></li>
-  <li class="bar" style="float:right"><a href="https://www.facebook.com/sarthakspiker" target="_blank"><img src="img/fb.png" height="22px" ></a></li>
-  <li class="bar" style="float:right"><a href="https://google.com/+sarthakkumar97" target="_blank"><img src="img/gp.png" height="22px" ></a></li> 
-  <li class="bar" style="float:right"><a href="https://github.com/sarthakspiker" target="_blank"><img src="img/gh.png" height="22px" ></a></li>
-    <li class="bar" style="float:right"><a href="http://forum.xda-developers.com/member.php?u=6335045" target="_blank"><img src="img/xda.png" height="22px" ></a></li>
+    <style>
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #122640;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="home.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="resume.html">Resume</a>
+  <a href="contact.html">Contact</a>
+</div>
+<li style="font-size:30px;cursor:pointer;color:white;" onclick="openNav()">&nbsp;&#9776</li>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+  <li class="bar" style="float:right"><a href="https://www.facebook.com/sarthakspiker" target="_blank"><img src="img/fb.png" height="28px" style="border-radius:13px"></a></li>
+  <li class="bar" style="float:right"><a href="https://google.com/+sarthakkumar97" target="_blank"><img src="img/gp.png" height="26px" ></a></li> 
+  <li class="bar" style="float:right"><a href="https://github.com/sarthakspiker" target="_blank"><img src="img/gh.png" height="26px" ></a></li>
+    <li class="bar" style="float:right"><a href="http://forum.xda-developers.com/member.php?u=6335045" target="_blank"><img src="img/xda.png" height="26px" ></a></li>
 
 </ul>
 </div>
  <h1 class="head1"> Lets Know A Little More </h1>
 
-  <h2> Experience with </h2>
+  <h2 class="head2"> Experience with </h2>
   <ul class="resulist">
 	<li>C++</li>
 	<li>C</li>
@@ -42,7 +103,7 @@
 	<li>Adobe Illustrator</li>
 	<li>Android</li>
   </ul>
-  <h2>Education</h2>
+  <h2 class="head2">Education</h2>
   <ul class="resulist">
   <li>B.tech, Software Engineering</li>
   SRM University, Kattankulathur,
