@@ -53,7 +53,7 @@ body {
 }
 .home1 {
 	font-family:Montserrat;
-	height:380px;
+	height:400px;
 	font-size:40px;
 	background: ;
 	color: white;
@@ -110,7 +110,7 @@ body {
 	background: #31D594;
 }	
 .resulist{
-    background-image: url(img/square2.png);
+    background-image: url(img/square1.png);
     background-size: cover;
     font-family: kanit;
 	padding:40px;
